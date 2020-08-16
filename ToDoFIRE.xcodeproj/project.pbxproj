@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5332881C8F99B2565C6345ED /* Pods_ToDoFIRE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE79B701E2842655B28CF5 /* Pods_ToDoFIRE.framework */; };
+		CE54DB9D24E950C800F814FB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DB9C24E950C800F814FB /* Task.swift */; };
+		CE54DB9F24E950CF00F814FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54DB9E24E950CF00F814FB /* User.swift */; };
 		CE8BBC4C24E6CDDA00665E8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8BBC4B24E6CDDA00665E8D /* GoogleService-Info.plist */; };
 		CEA0720824E514DB00FD237B /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0720724E514DB00FD237B /* TasksViewController.swift */; };
 		CEFD3EF324E2710400982465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD3EF224E2710400982465 /* AppDelegate.swift */; };
@@ -22,6 +24,8 @@
 		18DE79B701E2842655B28CF5 /* Pods_ToDoFIRE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoFIRE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4B2AA9F690C1942DA55C74 /* Pods-ToDoFIRE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoFIRE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoFIRE/Pods-ToDoFIRE.debug.xcconfig"; sourceTree = "<group>"; };
 		B815FE2FC5F34E077681B729 /* Pods-ToDoFIRE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoFIRE.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoFIRE/Pods-ToDoFIRE.release.xcconfig"; sourceTree = "<group>"; };
+		CE54DB9C24E950C800F814FB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CE54DB9E24E950CF00F814FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE8BBC4B24E6CDDA00665E8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEA0720724E514DB00FD237B /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		CEFD3EEF24E2710400982465 /* ToDoFIRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFIRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,15 @@
 				18DE79B701E2842655B28CF5 /* Pods_ToDoFIRE.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE54DBA024E950D800F814FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE54DB9C24E950C800F814FB /* Task.swift */,
+				CE54DB9E24E950CF00F814FB /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CEA0720924E5151500FD237B /* Supporting files */ = {
@@ -107,6 +120,7 @@
 		CEFD3EF124E2710400982465 /* ToDoFIRE */ = {
 			isa = PBXGroup;
 			children = (
+				CE54DBA024E950D800F814FB /* Models */,
 				CEA0720A24E5153000FD237B /* Controllers */,
 				CEA0720924E5151500FD237B /* Supporting files */,
 			);
@@ -236,6 +250,8 @@
 			files = (
 				CEFD3EF724E2710400982465 /* LoginViewController.swift in Sources */,
 				CEA0720824E514DB00FD237B /* TasksViewController.swift in Sources */,
+				CE54DB9F24E950CF00F814FB /* User.swift in Sources */,
+				CE54DB9D24E950C800F814FB /* Task.swift in Sources */,
 				CEFD3EF324E2710400982465 /* AppDelegate.swift in Sources */,
 				CEFD3EF524E2710400982465 /* SceneDelegate.swift in Sources */,
 			);
